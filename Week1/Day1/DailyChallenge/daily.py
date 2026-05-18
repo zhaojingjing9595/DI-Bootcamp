@@ -29,7 +29,7 @@ while length != 10:
     user_input=input("Please input a string (10 char long): ")
     length = len(user_input)
     if length > 10:
-        print("String too long.");
+        print("String too long.")
     elif length < 10:
         print("String not long enough.")
     else:
