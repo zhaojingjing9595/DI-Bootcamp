@@ -16,7 +16,8 @@
 # Note: Sets are unordered collections, so ensure no duplicate numbers are added.
 my_fav_numbers = {1, 2, 4}
 my_fav_numbers.add(3)
-my_fav_numbers.remove(3)
+my_fav_numbers.add(6)
+my_fav_numbers.remove(6)
 friend_fav_numbers = {4, 8, 9}
 our_fav_numbers = my_fav_numbers.union(friend_fav_numbers)
 print(our_fav_numbers)
@@ -95,9 +96,10 @@ print(my_list)
 # Write another for loop that prints every number from 1 to 20 where the index is even.
 for i in range(1, 21):
     print(i)
+ 
     
 for i in range(1, 21):
-    if i % 2 == 0:
+    if i % 2 != 0:
         print(i)
 
 # 🌟 Exercise 6: While Loop
@@ -195,7 +197,12 @@ while True:
 # Print the total ticket cost.
 
 total_cost = 0
-num_people = int(input("How many family members? "))
+while True:
+    try:
+        num_people = int(input("How many family members? "))
+        break
+    except ValueError:
+        print("Please enter an integer number!")
 for i in range(1, num_people + 1):
     age = int(input(f"Family member {i}: What's the age? "))
     
