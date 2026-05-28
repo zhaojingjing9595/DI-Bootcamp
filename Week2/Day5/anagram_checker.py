@@ -14,7 +14,7 @@ class AnagramChecker:
     def get_anagrams(self, word):
         anagrams = []
         for value in self.words:
-            if self.is_anagram(word, value) and value not in anagrams:
+            if self.is_anagram(word, value) and value not in anagrams and value != word:
                 anagrams.append(value)
         
         return anagrams

@@ -2,7 +2,7 @@ from anagram_checker import AnagramChecker
 
 checker = AnagramChecker('sowpods.txt')
 
-def input_valid_word(user_input):
+def input_format_valid(user_input):
     # Remove whitespace from start and end
     word = user_input.strip()
 
@@ -44,14 +44,16 @@ def main():
         
         if selected == 1:
             word = input("Enter Your word: ")
-            valid_word = input_valid_word(word)
+            valid_word = input_format_valid(word)
             if not valid_word:
+                print("Invalid format!")
+                continue
+            if not checker.is_valid_word(valid_word):
                 print("Invalid Word!")
                 continue
             print("this is a valid English word.")
             anagrams = checker.get_anagrams(valid_word)
             print(f"Anagrams for your word: {", ".join(anagrams)}")
-            break
             
 
 main()
