@@ -1,0 +1,378 @@
+user_id,name,age,movie_id,title,genre_watched,rating
+1,Danielle,28,1277,Cyrano de Bergerac (1990),Comedy,4.5
+1,Danielle,28,742,Thinner (1996),Horror,4.0
+1,Danielle,28,26303,Sisters (1973),Horror,4.5
+1,Danielle,28,2946,Help! (1965),Comedy,5.0
+1,Danielle,28,33649,Saving Face (2004),Comedy,4.0
+1,Danielle,28,60037,"Happening, The (2008)",Sci-Fi,4.0
+1,Danielle,28,89028,Don't Be Afraid of the Dark (2010),Horror,5.0
+1,Danielle,28,4893,When a Stranger Calls (1979),Horror,4.5
+1,Danielle,28,89343,Red State (2011),Horror,3.5
+1,Danielle,28,5853,Scanners (1981),Horror,4.5
+1,Danielle,28,61692,Altered (2006),Sci-Fi,3.5
+1,Danielle,28,77798,"Nightmare on Elm Street, A (2010)",Horror,3.5
+1,Danielle,28,160872,Satanic (2016),Horror,4.0
+1,Danielle,28,4410,Something Wild (1986),Comedy,2.5
+1,Danielle,28,45442,Poseidon (2006),Adventure,1.5
+1,Danielle,28,970,Beat the Devil (1953),Comedy,3.5
+1,Danielle,28,92309,"Innkeepers, The (2011)",Horror,3.5
+1,Danielle,28,121469,Killer Movie (2008),Horror,4.0
+1,Danielle,28,134334,Phir Hera Pheri (2006),Comedy,3.0
+1,Danielle,28,5903,Equilibrium (2002),Sci-Fi,5.0
+1,Danielle,28,89945,BlinkyTM (2011),Sci-Fi,4.0
+1,Danielle,28,54999,Shoot 'Em Up (2007),Comedy,4.0
+1,Danielle,28,93831,American Reunion (American Pie 4) (2012),Comedy,3.0
+1,Danielle,28,6583,"Blood of Heroes, The (Salute of the Jugger, The) (1989)",Sci-Fi,3.5
+1,Danielle,28,80572,I'm Still Here (2010),Comedy,4.0
+1,Danielle,28,4828,"Party, The (Boum, La) (1980)",Comedy,3.0
+1,Danielle,28,3947,Get Carter (1971),Action,3.0
+1,Danielle,28,6668,"Road Home, The (Wo de fu qin mu qin) (1999)",Romance,2.5
+1,Danielle,28,152372,Southbound (2016),Horror,4.0
+1,Danielle,28,3087,Scrooged (1988),Romance,2.5
+1,Danielle,28,149146,Parasyte: Part 2 (2015),Sci-Fi,5.0
+1,Danielle,28,6371,Pokémon Heroes (2003),Animation,3.0
+2,Angel,62,44974,Hard Candy (2005),Drama,3.5
+2,Angel,62,143458,The Great Hypnotist (2014),Drama,4.5
+2,Angel,62,2505,8MM (1999),Drama,3.0
+2,Angel,62,72694,Shrink (2009),Drama,4.0
+2,Angel,62,53161,"I'm a Cyborg, But That's OK (Saibogujiman kwenchana) (2006)",Drama,2.5
+2,Angel,62,180045,Molly's Game (2017),Drama,3.0
+2,Angel,62,2662,"War of the Worlds, The (1953)",Drama,4.0
+2,Angel,62,32387,"Sword of Doom, The (Dai-bosatsu tôge) (1966)",Drama,4.5
+2,Angel,62,3628,Flying Tigers (1942),Drama,4.0
+2,Angel,62,133545,Just Before I Go (2014),Drama,4.0
+2,Angel,62,8424,"Divorcee, The (1930)",Drama,4.0
+2,Angel,62,4998,"Defiant Ones, The (1958)",Crime,2.0
+2,Angel,62,183317,Patti Rocks (1988),Drama,3.5
+2,Angel,62,27708,Helen of Troy (2003),Adventure,2.5
+3,Joshua,45,1729,Jackie Brown (1997),Drama,4.5
+3,Joshua,45,1498,Inventing the Abbotts (1997),Drama,4.0
+3,Joshua,45,3019,Drugstore Cowboy (1989),Crime,1.5
+3,Joshua,45,3801,Anatomy of a Murder (1959),Drama,4.0
+3,Joshua,45,5127,Dragonfly (2002),Drama,3.5
+3,Joshua,45,79251,"Serbian Film, A (Srpski film) (2010)",Thriller,2.5
+3,Joshua,45,82765,Little Big Soldier (Da bing xiao jiang) (2010),Drama,4.5
+3,Joshua,45,5146,Vampire Hunter D: Bloodlust (Banpaia hantâ D) (2000),Animation,3.5
+3,Joshua,45,31660,Steamboy (Suchîmubôi) (2004),Drama,4.5
+4,Jeffrey,39,3946,Get Carter (2000),Action,3.5
+4,Jeffrey,39,162478,Masterminds (2016),Action,4.0
+4,Jeffrey,39,4850,Spriggan (Supurigan) (1998),Action,4.0
+4,Jeffrey,39,54999,Shoot 'Em Up (2007),Action,4.5
+4,Jeffrey,39,4200,Double Impact (1991),Action,3.5
+4,Jeffrey,39,3267,"Mariachi, El (1992)",Action,4.0
+4,Jeffrey,39,6624,Agent Cody Banks (2003),Action,3.0
+4,Jeffrey,39,167370,Assassin's Creed (2016),Action,3.0
+4,Jeffrey,39,1004,"Glimmer Man, The (1996)",Action,4.5
+4,Jeffrey,39,128488,Wild Card (2015),Action,5.0
+4,Jeffrey,39,2676,Instinct (1999),Thriller,2.5
+4,Jeffrey,39,2427,"Thin Red Line, The (1998)",Action,4.5
+4,Jeffrey,39,31367,"Chase, The (1994)",Action,4.5
+4,Jeffrey,39,26854,"Darkman II: Return of Durant, The (1995)",Action,3.5
+4,Jeffrey,39,2268,"Few Good Men, A (1992)",Crime,3.0
+4,Jeffrey,39,1527,"Fifth Element, The (1997)",Action,5.0
+4,Jeffrey,39,2327,Tales from the Darkside: The Movie (1990),Thriller,3.0
+4,Jeffrey,39,3704,Mad Max Beyond Thunderdome (1985),Action,5.0
+4,Jeffrey,39,2807,Universal Soldier: The Return (1999),Action,2.0
+4,Jeffrey,39,4613,K-9 (1989),Action,4.5
+4,Jeffrey,39,71899,Mary and Max (2009),Animation,3.0
+4,Jeffrey,39,2628,Star Wars: Episode I - The Phantom Menace (1999),Action,4.0
+4,Jeffrey,39,908,North by Northwest (1959),Action,4.0
+4,Jeffrey,39,107406,Snowpiercer (2013),Action,2.5
+4,Jeffrey,39,67295,Kung Fu Panda: Secrets of the Furious Five (2008),Action,4.0
+4,Jeffrey,39,875,Nothing to Lose (1994),Action,4.0
+4,Jeffrey,39,141820,Old Men: Robbers (1971),Comedy,4.0
+4,Jeffrey,39,91485,"Expendables 2, The (2012)",Action,3.5
+4,Jeffrey,39,1997,"Exorcist, The (1973)",Horror,2.0
+4,Jeffrey,39,6239,Journey to the Center of the Earth (1959),Adventure,2.5
+4,Jeffrey,39,74685,"Crazies, The (2010)",Action,4.5
+4,Jeffrey,39,4553,They Live (1988),Action,4.0
+5,Jill,35,26085,Mutiny on the Bounty (1962),Drama,3.5
+5,Jill,35,119,"Steal Big, Steal Little (1995)",Comedy,3.0
+5,Jill,35,1625,"Game, The (1997)",Drama,4.0
+5,Jill,35,3100,"River Runs Through It, A (1992)",Drama,4.5
+5,Jill,35,159193,Café Society (2016),Comedy,2.5
+5,Jill,35,3591,Mr. Mom (1983),Drama,4.0
+5,Jill,35,180031,The Shape of Water (2017),Drama,3.5
+5,Jill,35,2360,"Celebration, The (Festen) (1998)",Drama,3.0
+5,Jill,35,6975,Funny Games (1997),Drama,4.0
+5,Jill,35,3545,Cabaret (1972),Drama,4.0
+5,Jill,35,33166,Crash (2004),Drama,4.0
+5,Jill,35,139642,Southpaw (2015),Drama,4.0
+5,Jill,35,2076,Blue Velvet (1986),Drama,3.0
+5,Jill,35,956,Penny Serenade (1941),Drama,3.5
+5,Jill,35,6881,Pieces of April (2003),Drama,4.0
+7,Patricia,31,162602,The Girl on the Train (2016),Thriller,3.5
+7,Patricia,31,6503,Charlie's Angels: Full Throttle (2003),Crime,4.0
+7,Patricia,31,64957,"Curious Case of Benjamin Button, The (2008)",Drama,4.5
+7,Patricia,31,5995,"Pianist, The (2002)",Drama,5.0
+7,Patricia,31,68932,"Soloist, The (2009)",Drama,4.0
+8,Christopher,39,155743,My Big Fat Greek Wedding 2 (2016),Comedy,4.0
+8,Christopher,39,3323,Chain of Fools (2000),Comedy,4.0
+8,Christopher,39,5337,Delirious (1991),Comedy,2.5
+8,Christopher,39,5522,Rollerball (1975),Drama,4.0
+8,Christopher,39,60647,Transsiberian (2008),Drama,4.0
+8,Christopher,39,7307,Flesh & Blood (1985),Drama,5.0
+8,Christopher,39,53022,Wheels on Meals (Kuai can che) (1984),Crime,4.0
+8,Christopher,39,26612,"Better Tomorrow II, A (Ying hung boon sik II) (1987)",Crime,4.0
+8,Christopher,39,158035,Gintama: The Final Chapter - Be Forever Yorozuya (2013),Comedy,4.0
+8,Christopher,39,6986,Ben-Hur: A Tale of the Christ (1925),Drama,3.0
+8,Christopher,39,66943,"Cottage, The (2008)",Crime,5.0
+8,Christopher,39,7000,Hudson Hawk (1991),Comedy,4.5
+8,Christopher,39,2688,"General's Daughter, The (1999)",Crime,4.5
+8,Christopher,39,4845,Corky Romano (2001),Crime,3.5
+8,Christopher,39,67923,"Fast & Furious (Fast and the Furious 4, The) (2009)",Crime,5.0
+8,Christopher,39,4954,Ocean's Eleven (a.k.a. Ocean's 11) (1960),Crime,3.0
+8,Christopher,39,27744,"Facing Windows (Finestra di fronte, La) (2003)",Drama,4.5
+8,Christopher,39,2986,RoboCop 2 (1990),Crime,5.0
+8,Christopher,39,26285,Dark Star (1974),Comedy,3.5
+8,Christopher,39,4867,Riding in Cars with Boys (2001),Comedy,3.5
+8,Christopher,39,36477,"Baxter, The (2005)",Comedy,4.0
+8,Christopher,39,72224,Gentlemen Broncos (2009),Comedy,3.5
+8,Christopher,39,8502,Show Boat (1951),Drama,3.0
+8,Christopher,39,8650,Long Day's Journey Into Night (1962),Drama,4.0
+8,Christopher,39,111375,Walk of Shame (2014),Comedy,3.5
+8,Christopher,39,25963,"Young and the Damned, The (Olvidados, Los) (1950)",Crime,4.5
+8,Christopher,39,76173,Micmacs (Micmacs à tire-larigot) (2009),Comedy,3.5
+8,Christopher,39,114678,Hector and the Search for Happiness (2014),Comedy,5.0
+8,Christopher,39,1912,Out of Sight (1998),Drama,3.5
+8,Christopher,39,26875,"Pure Formality, A (Pura formalità, Una) (1994)",Crime,4.0
+8,Christopher,39,8958,Ray (2004),Drama,4.5
+8,Christopher,39,3409,Final Destination (2000),Drama,3.0
+8,Christopher,39,106330,Last Vegas (2013),Drama,4.0
+8,Christopher,39,93512,"Jeff, Who Lives at Home (2012)",Drama,5.0
+8,Christopher,39,170875,The Fate of the Furious (2017),Crime,3.0
+8,Christopher,39,44937,"Child, The (L'enfant) (2005)",Crime,4.0
+8,Christopher,39,3410,Soft Fruit (1999),Drama,4.0
+8,Christopher,39,2422,"Karate Kid, Part III, The (1989)",Drama,4.5
+8,Christopher,39,4103,Empire of the Sun (1987),Drama,3.0
+8,Christopher,39,81520,Undisputed III: Redemption (2010),Crime,3.0
+8,Christopher,39,2861,For Love of the Game (1999),Drama,4.5
+8,Christopher,39,73160,Sorority Babes in the Slimeball Bowl-O-Rama (1988),Comedy,4.0
+8,Christopher,39,8831,Suspect Zero (2004),Crime,4.0
+8,Christopher,39,146684,Cosmic Scrat-tastrophe (2015),Animation,3.0
+8,Christopher,39,72167,"Boondock Saints II: All Saints Day, The (2009)",Crime,3.5
+8,Christopher,39,120130,Into the Forest of Fireflies' Light (2011),Animation,3.0
+8,Christopher,39,7238,Ashes and Diamonds (Popiól i diament) (1958),Drama,4.0
+8,Christopher,39,92637,Pitfall (Otoshiana) (1962),Crime,3.5
+8,Christopher,39,7041,Trapped in Paradise (1994),Comedy,5.0
+8,Christopher,39,3521,Mystery Train (1989),Comedy,4.5
+8,Christopher,39,170411,Dave Chappelle: Deep in the Heart of Texas (2017),Comedy,3.0
+8,Christopher,39,3456,"Color of Paradise, The (Rang-e khoda) (1999)",Drama,4.5
+8,Christopher,39,3868,"Naked Gun: From the Files of Police Squad!, The (1988)",Crime,3.5
+8,Christopher,39,69860,Eichmann (2007),Drama,4.5
+8,Christopher,39,82093,London Boulevard (2010),Crime,5.0
+9,Robert,24,161290,Vigilante Diaries (2016),Action,3.5
+9,Robert,24,53466,Nancy Drew (2007),Adventure,3.5
+9,Robert,24,5246,Smokey and the Bandit II (1980),Action,4.5
+9,Robert,24,54995,Planet Terror (2007),Action,4.5
+9,Robert,24,36850,Police Story 2 (Ging chaat goo si juk jaap) (1988),Action,5.0
+9,Robert,24,34536,The Great Raid (2005),Action,4.0
+9,Robert,24,90249,Real Steel (2011),Action,3.5
+9,Robert,24,102338,Shaolin Temple (Shao Lin si) (1976),Action,3.5
+9,Robert,24,2281,Monument Ave. (1998),Action,3.5
+9,Robert,24,493,Menace II Society (1993),Crime,2.5
+9,Robert,24,135532,The Last Witch Hunter (2015),Adventure,3.0
+9,Robert,24,82641,"One-Armed Swordsman, The (Dubei dao) (1967)",Action,4.0
+9,Robert,24,3029,Nighthawks (1981),Action,4.5
+9,Robert,24,5961,Blue Steel (1990),Action,4.0
+10,Anthony,23,130520,Home (2015),Sci-Fi,4.0
+10,Anthony,23,84952,Confessions (Kokuhaku) (2010),Horror,4.0
+10,Anthony,23,48414,Open Season (2006),Animation,5.0
+10,Anthony,23,86286,Daffy Duck's Quackbusters (1988),Horror,4.5
+10,Anthony,23,2754,Deadtime Stories (1987),Horror,3.5
+10,Anthony,23,3285,"Beach, The (2000)",Adventure,2.0
+10,Anthony,23,4886,"Monsters, Inc. (2001)",Animation,4.5
+10,Anthony,23,7900,Frankenstein Must Be Destroyed (1969),Horror,4.0
+10,Anthony,23,8974,"SpongeBob SquarePants Movie, The (2004)",Animation,4.5
+10,Anthony,23,93819,Absentia (2011),Horror,4.5
+10,Anthony,23,2011,Back to the Future Part II (1989),Sci-Fi,2.5
+10,Anthony,23,176389,The Nut Job 2: Nutty by Nature (2017),Animation,3.5
+10,Anthony,23,102084,Justice League: Doom (2012) ,Animation,3.0
+10,Anthony,23,1037,"Lawnmower Man, The (1992)",Thriller,2.5
+10,Anthony,23,1977,Friday the 13th Part IV: The Final Chapter (1984),Horror,4.5
+10,Anthony,23,5146,Vampire Hunter D: Bloodlust (Banpaia hantâ D) (2000),Animation,4.0
+10,Anthony,23,5165,Zombie (a.k.a. Zombie 2: The Dead Are Among Us) (Zombi 2) (1979),Horror,3.0
+10,Anthony,23,2559,"King and I, The (1999)",Animation,4.0
+10,Anthony,23,610,Heavy Metal (1981),Animation,4.5
+10,Anthony,23,4306,Shrek (2001),Animation,3.5
+10,Anthony,23,127390,Family Guy Presents: Blue Harvest (2007),Animation,4.0
+10,Anthony,23,26776,Porco Rosso (Crimson Pig) (Kurenai no buta) (1992),Animation,4.0
+10,Anthony,23,166183,Junior and Karlson (1968),Animation,3.0
+10,Anthony,23,115065,Justin and the Knights of Valour (2013),Animation,4.5
+10,Anthony,23,7075,"Court Jester, The (1956)",Adventure,3.0
+10,Anthony,23,110746,Hatchet III (2013),Horror,5.0
+10,Anthony,23,148172,The 5th Wave (2016),Sci-Fi,3.5
+10,Anthony,23,175397,"In the blue sea, in the white foam. (1984)",Animation,3.0
+10,Anthony,23,90603,Batman: Year One (2011),Animation,3.5
+10,Anthony,23,27186,Kirikou and the Sorceress (Kirikou et la sorcière) (1998),Animation,4.5
+10,Anthony,23,62999,Madagascar: Escape 2 Africa (2008),Animation,4.5
+10,Anthony,23,172587,Vacations in Prostokvashino (1980),Animation,4.5
+10,Anthony,23,1644,I Know What You Did Last Summer (1997),Horror,5.0
+10,Anthony,23,138702,Feast (2014),Animation,4.5
+10,Anthony,23,69211,Boy Eats Girl (2005),Horror,5.0
+10,Anthony,23,117922,Ice Age: A Mammoth Christmas (2011),Animation,4.5
+10,Anthony,23,3940,Slumber Party Massacre III (1990),Horror,4.5
+10,Anthony,23,4138,My Demon Lover (1987),Horror,4.0
+10,Anthony,23,134853,Inside Out (2015),Animation,4.5
+10,Anthony,23,110655,Rio 2 (2014),Animation,3.5
+10,Anthony,23,26587,"Decalogue, The (Dekalog) (1989)",Crime,2.5
+10,Anthony,23,67295,Kung Fu Panda: Secrets of the Furious Five (2008),Animation,3.5
+10,Anthony,23,1998,Exorcist II: The Heretic (1977),Horror,4.0
+10,Anthony,23,5109,Return to Never Land (2002),Animation,5.0
+10,Anthony,23,2699,Arachnophobia (1990),Horror,2.5
+10,Anthony,23,69644,Ice Age: Dawn of the Dinosaurs (2009),Animation,4.5
+10,Anthony,23,4006,Transformers: The Movie (1986),Animation,3.0
+10,Anthony,23,3662,Puppet Master III: Toulon's Revenge (1991),Sci-Fi,2.5
+10,Anthony,23,631,All Dogs Go to Heaven 2 (1996),Animation,5.0
+10,Anthony,23,3830,Psycho Beach Party (2000),Horror,4.0
+10,Anthony,23,33085,"Amityville Horror, The (2005)",Horror,3.0
+10,Anthony,23,55492,"Last Winter, The (2006)",Horror,3.5
+10,Anthony,23,4154,Recess: School's Out (2001),Animation,4.5
+10,Anthony,23,7757,Jason and the Argonauts (1963),Adventure,2.5
+10,Anthony,23,91353,Asterix in America (a.k.a Asterix Conquers America) (Astérix et les Indiens) (1994),Animation,4.0
+10,Anthony,23,3658,Quatermass and the Pit (1967),Horror,4.0
+10,Anthony,23,4873,Waking Life (2001),Animation,3.5
+10,Anthony,23,8861,Resident Evil: Apocalypse (2004),Horror,5.0
+10,Anthony,23,2428,"Faculty, The (1998)",Horror,4.5
+10,Anthony,23,3287,"Tigger Movie, The (2000)",Animation,2.5
+11,Jeffery,42,4407,Salvador (1986),Thriller,4.0
+11,Jeffery,42,4135,"Monster Squad, The (1987)",Horror,2.5
+11,Jeffery,42,55112,Shanghai Kiss (2007),Comedy,4.5
+11,Jeffery,42,103602,Craig Ferguson: I'm Here To Help (2013),Comedy,3.5
+11,Jeffery,42,3997,Dungeons & Dragons (2000),Comedy,4.0
+11,Jeffery,42,3590,"Lords of Flatbush, The (1974)",Comedy,4.5
+11,Jeffery,42,2356,Celebrity (1998),Comedy,4.5
+11,Jeffery,42,72104,Balance (1989),Thriller,3.0
+11,Jeffery,42,407,In the Mouth of Madness (1995),Thriller,4.0
+11,Jeffery,42,7258,"Perfect Score, The (2004)",Crime,3.5
+11,Jeffery,42,931,Spellbound (1945),Thriller,3.5
+12,William,24,6990,The Great Train Robbery (1978),Adventure,5.0
+12,William,24,829,Joe's Apartment (1996),Comedy,3.0
+12,William,24,51540,Zodiac (2007),Thriller,3.0
+12,William,24,169982,Power Rangers (2017),Sci-Fi,4.5
+12,William,24,90403,"Three Musketeers, The (2011)",Adventure,5.0
+12,William,24,7001,Invasion of the Body Snatchers (1978),Sci-Fi,4.5
+12,William,24,120783,Son of a Gun (2014),Crime,1.5
+12,William,24,167370,Assassin's Creed (2016),Adventure,3.5
+12,William,24,86190,Hanna (2011),Thriller,5.0
+12,William,24,320,Suture (1993),Thriller,3.5
+12,William,24,130840,Spring (2015),Sci-Fi,4.5
+12,William,24,455,Free Willy (1993),Adventure,4.5
+12,William,24,57504,"Girl Who Leapt Through Time, The (Toki o kakeru shôjo) (2006)",Sci-Fi,3.5
+13,Anthony,40,54995,Planet Terror (2007),Horror,3.0
+13,Anthony,40,7884,Highway 61 (1991),Comedy,1.5
+13,Anthony,40,4782,Sidewalks of New York (2001),Comedy,3.5
+13,Anthony,40,6016,City of God (Cidade de Deus) (2002),Action,4.0
+13,Anthony,40,4349,Catch-22 (1970),Comedy,3.0
+13,Anthony,40,126088,A Flintstones Christmas Carol (1994),Comedy,5.0
+13,Anthony,40,27695,Nicotina (2003),Action,3.0
+14,James,40,86892,The Man from Nowhere (2010),Action,2.5
+14,James,40,107953,Dragon Ball Z: Battle of Gods (2013),Animation,3.0
+14,James,40,55946,Lions For Lambs (2007),Thriller,5.0
+14,James,40,92008,Haywire (2011),Thriller,3.0
+14,James,40,40148,Revolver (2005),Thriller,5.0
+14,James,40,7305,Black Widow (1987),Thriller,4.0
+14,James,40,5159,Ferngully: The Last Rainforest (1992),Animation,2.0
+14,James,40,3640,"King in New York, A (1957)",Drama,4.5
+14,James,40,65810,Notorious (2009),Drama,4.0
+14,James,40,96945,Love Lasts Three Years (L'amour dure trois ans) (2011),Drama,3.5
+14,James,40,130452,While We're Young (2014),Drama,4.0
+15,Debra,56,5970,My Girl (1991),Comedy,3.5
+15,Debra,56,26903,Whisper of the Heart (Mimi wo sumaseba) (1995),Romance,4.0
+15,Debra,56,148881,World of Tomorrow (2015),Comedy,4.5
+15,Debra,56,5543,"Swarm, The (1978)",Sci-Fi,5.0
+15,Debra,56,6920,"Cercle Rouge, Le (Red Circle, The) (1970)",Crime,2.0
+15,Debra,56,95720,"Watch, The (2012)",Sci-Fi,5.0
+15,Debra,56,51834,Becoming Jane (2007),Romance,2.5
+15,Debra,56,6889,Brother Bear (2003),Animation,2.5
+16,Amy,34,4799,"It's a Mad, Mad, Mad, Mad World (1963)",Crime,4.5
+16,Amy,34,46855,Army of Shadows (L'armée des ombres) (1969),Thriller,3.0
+16,Amy,34,970,Beat the Devil (1953),Crime,3.5
+16,Amy,34,44204,Tsotsi (2005),Crime,4.0
+16,Amy,34,127116,Experimenter (2015),Drama,3.5
+16,Amy,34,134881,Love & Mercy (2014),Drama,3.5
+16,Amy,34,1286,Somewhere in Time (1980),Romance,3.5
+16,Amy,34,4006,Transformers: The Movie (1986),Animation,3.0
+16,Amy,34,259,Kiss of Death (1995),Crime,3.5
+16,Amy,34,3899,Circus (2000),Crime,4.5
+16,Amy,34,27397,Joint Security Area (Gongdong gyeongbi guyeok JSA) (2000),Crime,4.0
+16,Amy,34,1804,"Newton Boys, The (1998)",Crime,4.5
+16,Amy,34,44197,Find Me Guilty (2006),Crime,4.5
+17,Jeffrey,20,89582,Cold Fish (Tsumetai nettaigyo) (2010),Thriller,2.0
+17,Jeffrey,20,111146,Alpha and Omega 3: The Great Wolf Games (2014),Action,3.5
+17,Jeffrey,20,26865,Fist of Legend (Jing wu ying xiong) (1994),Action,4.5
+17,Jeffrey,20,610,Heavy Metal (1981),Adventure,4.5
+17,Jeffrey,20,5155,"Big Bird Cage, The (1972)",Action,4.0
+17,Jeffrey,20,3000,Princess Mononoke (Mononoke-hime) (1997),Adventure,4.0
+17,Jeffrey,20,136016,The Good Dinosaur (2015),Adventure,5.0
+17,Jeffrey,20,2881,Double Jeopardy (1999),Action,3.5
+17,Jeffrey,20,98124,"Batman: The Dark Knight Returns, Part 1 (2012)",Animation,4.5
+17,Jeffrey,20,41627,Samurai Rebellion (Jôi-uchi: Hairyô tsuma shimatsu) (1967),Action,4.0
+17,Jeffrey,20,5878,Talk to Her (Hable con Ella) (2002),Drama,2.5
+17,Jeffrey,20,86593,African Cats (2011),Adventure,5.0
+17,Jeffrey,20,129937,Run All Night (2015),Action,4.5
+17,Jeffrey,20,122918,Guardians of the Galaxy 2 (2017),Adventure,4.5
+17,Jeffrey,20,36509,"Cave, The (2005)",Adventure,5.0
+17,Jeffrey,20,71135,Pandorum (2009),Sci-Fi,3.0
+17,Jeffrey,20,8914,Primer (2004),Sci-Fi,3.5
+17,Jeffrey,20,6163,He Loves Me... He Loves Me Not (À la folie... pas du tout) (2002),Thriller,2.5
+17,Jeffrey,20,3549,Guys and Dolls (1955),Comedy,3.0
+17,Jeffrey,20,141830,Unbelievable Adventures of Italians in Russia (1974),Adventure,4.0
+17,Jeffrey,20,73042,Alvin and the Chipmunks: The Squeakquel (2009),Animation,4.0
+17,Jeffrey,20,102058,Hulk Vs. (2009),Animation,4.5
+17,Jeffrey,20,2085,101 Dalmatians (One Hundred and One Dalmatians) (1961),Animation,3.5
+17,Jeffrey,20,72104,Balance (1989),Animation,5.0
+17,Jeffrey,20,72308,Battlestar Galactica: The Plan (2009),Action,3.5
+17,Jeffrey,20,58975,"Ruins, The (2008)",Thriller,2.0
+17,Jeffrey,20,2890,Three Kings (1999),Adventure,5.0
+17,Jeffrey,20,1688,Anastasia (1997),Animation,4.5
+17,Jeffrey,20,709,Oliver & Company (1988),Adventure,4.5
+17,Jeffrey,20,5651,"Incredible Mr. Limpet, The (1964)",Animation,4.5
+17,Jeffrey,20,30810,"Life Aquatic with Steve Zissou, The (2004)",Adventure,4.0
+17,Jeffrey,20,3452,Romeo Must Die (2000),Action,3.5
+17,Jeffrey,20,95475,Dragon Ball Z: Cooler's Revenge (Doragon bôru Z 5: Tobikkiri no saikyô tai saikyô) (1991),Animation,4.0
+17,Jeffrey,20,3623,Mission: Impossible II (2000),Adventure,3.5
+17,Jeffrey,20,8633,"Last Starfighter, The (1984)",Adventure,4.5
+17,Jeffrey,20,2405,"Jewel of the Nile, The (1985)",Adventure,4.0
+17,Jeffrey,20,2429,Mighty Joe Young (1998),Action,3.5
+17,Jeffrey,20,162968,Kizumonogatari Part 1: Tekketsu (2016),Action,4.0
+17,Jeffrey,20,102084,Justice League: Doom (2012) ,Animation,4.5
+17,Jeffrey,20,37731,Green Street Hooligans (a.k.a. Hooligans) (2005),Crime,2.5
+17,Jeffrey,20,258,"Kid in King Arthur's Court, A (1995)",Adventure,3.5
+17,Jeffrey,20,27695,Nicotina (2003),Action,4.0
+17,Jeffrey,20,64285,Wallace and Gromit in 'A Matter of Loaf and Death' (2008),Animation,4.0
+17,Jeffrey,20,95771,Dragon Ball Z: Broly Second Coming (Doragon bôru Z 10: Kiken na futari! Sûpâ senshi wa nemurenai) (1994),Animation,3.5
+17,Jeffrey,20,32460,Knockin' on Heaven's Door (1997),Action,3.5
+17,Jeffrey,20,86298,Rio (2011),Animation,4.0
+17,Jeffrey,20,60937,"Mummy: Tomb of the Dragon Emperor, The (2008)",Thriller,2.0
+17,Jeffrey,20,8905,1492: Conquest of Paradise (1992),Adventure,3.0
+17,Jeffrey,20,2422,"Karate Kid, Part III, The (1989)",Action,3.5
+17,Jeffrey,20,5418,"Bourne Identity, The (2002)",Action,4.0
+17,Jeffrey,20,1456,"Pest, The (1997)",Comedy,3.0
+18,Bridget,64,58826,"Shepherd: Border Patrol, The (2008)",Crime,4.0
+18,Bridget,64,151777,The Finest Hours (2016),Thriller,4.5
+18,Bridget,64,116823,The Hunger Games: Mockingjay - Part 1 (2014),Thriller,4.0
+18,Bridget,64,4037,House of Games (1987),Thriller,4.0
+18,Bridget,64,2995,House on Haunted Hill (1999),Thriller,3.5
+18,Bridget,64,130634,Furious 7 (2015),Thriller,4.0
+18,Bridget,64,37720,"Exorcism of Emily Rose, The (2005)",Thriller,4.0
+18,Bridget,64,804,She's the One (1996),Romance,3.0
+18,Bridget,64,1689,"Man Who Knew Too Little, The (1997)",Thriller,3.5
+18,Bridget,64,3687,Light Years (Gandahar) (1988),Animation,3.0
+18,Bridget,64,628,Primal Fear (1996),Thriller,5.0
+18,Bridget,64,1754,Fallen (1998),Thriller,4.0
+18,Bridget,64,908,North by Northwest (1959),Thriller,4.5
+18,Bridget,64,5329,"Salton Sea, The (2002)",Crime,3.5
+18,Bridget,64,4965,"Business of Strangers, The (2001)",Thriller,3.5
+19,Lisa,47,3265,Hard-Boiled (Lat sau san taam) (1992),Crime,4.0
+19,Lisa,47,26151,Au Hasard Balthazar (1966),Crime,4.0
+19,Lisa,47,761,"Phantom, The (1996)",Action,4.0
+19,Lisa,47,51939,TMNT (Teenage Mutant Ninja Turtles) (2007),Action,3.5
+19,Lisa,47,88593,"Yellow Sea, The (a.k.a. The Murderer) (Hwanghae) (2010)",Crime,4.0
+19,Lisa,47,47254,Chaos (2005),Action,4.5
+19,Lisa,47,43928,Ultraviolet (2006),Action,5.0
+20,Adam,52,140289,Men & Chicken (2015),Comedy,4.5
+20,Adam,52,1441,Benny & Joon (1993),Romance,5.0
+20,Adam,52,1042,That Thing You Do! (1996),Comedy,3.5
+20,Adam,52,59549,Shelter (2007),Romance,4.5
+20,Adam,52,4756,"Musketeer, The (2001)",Action,4.0

@@ -1,0 +1,2486 @@
+[
+  {
+    "user_id": 1,
+    "name": "Danielle",
+    "age": 28,
+    "preferred_genres": [
+      "Horror",
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 1277,
+        "title": "Cyrano de Bergerac (1990)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 742,
+        "title": "Thinner (1996)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 26303,
+        "title": "Sisters (1973)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2946,
+        "title": "Help! (1965)",
+        "genre_watched": "Comedy",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 33649,
+        "title": "Saving Face (2004)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 60037,
+        "title": "Happening, The (2008)",
+        "genre_watched": "Sci-Fi",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 89028,
+        "title": "Don't Be Afraid of the Dark (2010)",
+        "genre_watched": "Horror",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 4893,
+        "title": "When a Stranger Calls (1979)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 89343,
+        "title": "Red State (2011)",
+        "genre_watched": "Horror",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 5853,
+        "title": "Scanners (1981)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 61692,
+        "title": "Altered (2006)",
+        "genre_watched": "Sci-Fi",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 77798,
+        "title": "Nightmare on Elm Street, A (2010)",
+        "genre_watched": "Horror",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 160872,
+        "title": "Satanic (2016)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4410,
+        "title": "Something Wild (1986)",
+        "genre_watched": "Comedy",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 45442,
+        "title": "Poseidon (2006)",
+        "genre_watched": "Adventure",
+        "rating": 1.5
+      },
+      {
+        "movie_id": 970,
+        "title": "Beat the Devil (1953)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 92309,
+        "title": "Innkeepers, The (2011)",
+        "genre_watched": "Horror",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 121469,
+        "title": "Killer Movie (2008)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 134334,
+        "title": "Phir Hera Pheri (2006)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 5903,
+        "title": "Equilibrium (2002)",
+        "genre_watched": "Sci-Fi",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 89945,
+        "title": "BlinkyTM (2011)",
+        "genre_watched": "Sci-Fi",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 54999,
+        "title": "Shoot 'Em Up (2007)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 93831,
+        "title": "American Reunion (American Pie 4) (2012)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 6583,
+        "title": "Blood of Heroes, The (Salute of the Jugger, The) (1989)",
+        "genre_watched": "Sci-Fi",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 80572,
+        "title": "I'm Still Here (2010)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4828,
+        "title": "Party, The (Boum, La) (1980)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 3947,
+        "title": "Get Carter (1971)",
+        "genre_watched": "Action",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 6668,
+        "title": "Road Home, The (Wo de fu qin mu qin) (1999)",
+        "genre_watched": "Romance",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 152372,
+        "title": "Southbound (2016)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3087,
+        "title": "Scrooged (1988)",
+        "genre_watched": "Romance",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 149146,
+        "title": "Parasyte: Part 2 (2015)",
+        "genre_watched": "Sci-Fi",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 6371,
+        "title": "Pok\u00e9mon Heroes (2003)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "name": "Angel",
+    "age": 62,
+    "preferred_genres": [
+      "Drama"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 44974,
+        "title": "Hard Candy (2005)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 143458,
+        "title": "The Great Hypnotist (2014)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2505,
+        "title": "8MM (1999)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 72694,
+        "title": "Shrink (2009)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 53161,
+        "title": "I'm a Cyborg, But That's OK (Saibogujiman kwenchana) (2006)",
+        "genre_watched": "Drama",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 180045,
+        "title": "Molly's Game (2017)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 2662,
+        "title": "War of the Worlds, The (1953)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 32387,
+        "title": "Sword of Doom, The (Dai-bosatsu t\u00f4ge) (1966)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 3628,
+        "title": "Flying Tigers (1942)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 133545,
+        "title": "Just Before I Go (2014)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 8424,
+        "title": "Divorcee, The (1930)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4998,
+        "title": "Defiant Ones, The (1958)",
+        "genre_watched": "Crime",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 183317,
+        "title": "Patti Rocks (1988)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 27708,
+        "title": "Helen of Troy (2003)",
+        "genre_watched": "Adventure",
+        "rating": 2.5
+      }
+    ]
+  },
+  {
+    "user_id": 3,
+    "name": "Joshua",
+    "age": 45,
+    "preferred_genres": [
+      "Drama"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 1729,
+        "title": "Jackie Brown (1997)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 1498,
+        "title": "Inventing the Abbotts (1997)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3019,
+        "title": "Drugstore Cowboy (1989)",
+        "genre_watched": "Crime",
+        "rating": 1.5
+      },
+      {
+        "movie_id": 3801,
+        "title": "Anatomy of a Murder (1959)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 5127,
+        "title": "Dragonfly (2002)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 79251,
+        "title": "Serbian Film, A (Srpski film) (2010)",
+        "genre_watched": "Thriller",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 82765,
+        "title": "Little Big Soldier (Da bing xiao jiang) (2010)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5146,
+        "title": "Vampire Hunter D: Bloodlust (Banpaia hant\u00e2 D) (2000)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 31660,
+        "title": "Steamboy (Such\u00eemub\u00f4i) (2004)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "user_id": 4,
+    "name": "Jeffrey",
+    "age": 39,
+    "preferred_genres": [
+      "Action"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 3946,
+        "title": "Get Carter (2000)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 162478,
+        "title": "Masterminds (2016)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4850,
+        "title": "Spriggan (Supurigan) (1998)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 54999,
+        "title": "Shoot 'Em Up (2007)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4200,
+        "title": "Double Impact (1991)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 3267,
+        "title": "Mariachi, El (1992)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 6624,
+        "title": "Agent Cody Banks (2003)",
+        "genre_watched": "Action",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 167370,
+        "title": "Assassin's Creed (2016)",
+        "genre_watched": "Action",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 1004,
+        "title": "Glimmer Man, The (1996)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 128488,
+        "title": "Wild Card (2015)",
+        "genre_watched": "Action",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 2676,
+        "title": "Instinct (1999)",
+        "genre_watched": "Thriller",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 2427,
+        "title": "Thin Red Line, The (1998)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 31367,
+        "title": "Chase, The (1994)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 26854,
+        "title": "Darkman II: Return of Durant, The (1995)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 2268,
+        "title": "Few Good Men, A (1992)",
+        "genre_watched": "Crime",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 1527,
+        "title": "Fifth Element, The (1997)",
+        "genre_watched": "Action",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 2327,
+        "title": "Tales from the Darkside: The Movie (1990)",
+        "genre_watched": "Thriller",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 3704,
+        "title": "Mad Max Beyond Thunderdome (1985)",
+        "genre_watched": "Action",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 2807,
+        "title": "Universal Soldier: The Return (1999)",
+        "genre_watched": "Action",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 4613,
+        "title": "K-9 (1989)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 71899,
+        "title": "Mary and Max (2009)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 2628,
+        "title": "Star Wars: Episode I - The Phantom Menace (1999)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 908,
+        "title": "North by Northwest (1959)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 107406,
+        "title": "Snowpiercer (2013)",
+        "genre_watched": "Action",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 67295,
+        "title": "Kung Fu Panda: Secrets of the Furious Five (2008)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 875,
+        "title": "Nothing to Lose (1994)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 141820,
+        "title": "Old Men: Robbers (1971)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 91485,
+        "title": "Expendables 2, The (2012)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 1997,
+        "title": "Exorcist, The (1973)",
+        "genre_watched": "Horror",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 6239,
+        "title": "Journey to the Center of the Earth (1959)",
+        "genre_watched": "Adventure",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 74685,
+        "title": "Crazies, The (2010)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4553,
+        "title": "They Live (1988)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "user_id": 5,
+    "name": "Jill",
+    "age": 35,
+    "preferred_genres": [
+      "Drama"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 26085,
+        "title": "Mutiny on the Bounty (1962)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 119,
+        "title": "Steal Big, Steal Little (1995)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 1625,
+        "title": "Game, The (1997)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3100,
+        "title": "River Runs Through It, A (1992)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 159193,
+        "title": "Caf\u00e9 Society (2016)",
+        "genre_watched": "Comedy",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 3591,
+        "title": "Mr. Mom (1983)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 180031,
+        "title": "The Shape of Water (2017)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 2360,
+        "title": "Celebration, The (Festen) (1998)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 6975,
+        "title": "Funny Games (1997)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3545,
+        "title": "Cabaret (1972)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 33166,
+        "title": "Crash (2004)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 139642,
+        "title": "Southpaw (2015)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 2076,
+        "title": "Blue Velvet (1986)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 956,
+        "title": "Penny Serenade (1941)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 6881,
+        "title": "Pieces of April (2003)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "user_id": 6,
+    "name": "Erica",
+    "age": 27,
+    "preferred_genres": [
+      "Drama",
+      "Animation",
+      "Adventure"
+    ],
+    "watch_history": []
+  },
+  {
+    "user_id": 7,
+    "name": "Patricia",
+    "age": 31,
+    "preferred_genres": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 162602,
+        "title": "The Girl on the Train (2016)",
+        "genre_watched": "Thriller",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 6503,
+        "title": "Charlie's Angels: Full Throttle (2003)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 64957,
+        "title": "Curious Case of Benjamin Button, The (2008)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5995,
+        "title": "Pianist, The (2002)",
+        "genre_watched": "Drama",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 68932,
+        "title": "Soloist, The (2009)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "user_id": 8,
+    "name": "Christopher",
+    "age": 39,
+    "preferred_genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 155743,
+        "title": "My Big Fat Greek Wedding 2 (2016)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3323,
+        "title": "Chain of Fools (2000)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 5337,
+        "title": "Delirious (1991)",
+        "genre_watched": "Comedy",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 5522,
+        "title": "Rollerball (1975)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 60647,
+        "title": "Transsiberian (2008)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 7307,
+        "title": "Flesh & Blood (1985)",
+        "genre_watched": "Drama",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 53022,
+        "title": "Wheels on Meals (Kuai can che) (1984)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 26612,
+        "title": "Better Tomorrow II, A (Ying hung boon sik II) (1987)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 158035,
+        "title": "Gintama: The Final Chapter - Be Forever Yorozuya (2013)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 6986,
+        "title": "Ben-Hur: A Tale of the Christ (1925)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 66943,
+        "title": "Cottage, The (2008)",
+        "genre_watched": "Crime",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 7000,
+        "title": "Hudson Hawk (1991)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2688,
+        "title": "General's Daughter, The (1999)",
+        "genre_watched": "Crime",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4845,
+        "title": "Corky Romano (2001)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 67923,
+        "title": "Fast & Furious (Fast and the Furious 4, The) (2009)",
+        "genre_watched": "Crime",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 4954,
+        "title": "Ocean's Eleven (a.k.a. Ocean's 11) (1960)",
+        "genre_watched": "Crime",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 27744,
+        "title": "Facing Windows (Finestra di fronte, La) (2003)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2986,
+        "title": "RoboCop 2 (1990)",
+        "genre_watched": "Crime",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 26285,
+        "title": "Dark Star (1974)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 4867,
+        "title": "Riding in Cars with Boys (2001)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 36477,
+        "title": "Baxter, The (2005)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 72224,
+        "title": "Gentlemen Broncos (2009)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 8502,
+        "title": "Show Boat (1951)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 8650,
+        "title": "Long Day's Journey Into Night (1962)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 111375,
+        "title": "Walk of Shame (2014)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 25963,
+        "title": "Young and the Damned, The (Olvidados, Los) (1950)",
+        "genre_watched": "Crime",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 76173,
+        "title": "Micmacs (Micmacs \u00e0 tire-larigot) (2009)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 114678,
+        "title": "Hector and the Search for Happiness (2014)",
+        "genre_watched": "Comedy",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 1912,
+        "title": "Out of Sight (1998)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 26875,
+        "title": "Pure Formality, A (Pura formalit\u00e0, Una) (1994)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 8958,
+        "title": "Ray (2004)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 3409,
+        "title": "Final Destination (2000)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 106330,
+        "title": "Last Vegas (2013)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 93512,
+        "title": "Jeff, Who Lives at Home (2012)",
+        "genre_watched": "Drama",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 170875,
+        "title": "The Fate of the Furious (2017)",
+        "genre_watched": "Crime",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 44937,
+        "title": "Child, The (L'enfant) (2005)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3410,
+        "title": "Soft Fruit (1999)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 2422,
+        "title": "Karate Kid, Part III, The (1989)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4103,
+        "title": "Empire of the Sun (1987)",
+        "genre_watched": "Drama",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 81520,
+        "title": "Undisputed III: Redemption (2010)",
+        "genre_watched": "Crime",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 2861,
+        "title": "For Love of the Game (1999)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 73160,
+        "title": "Sorority Babes in the Slimeball Bowl-O-Rama (1988)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 8831,
+        "title": "Suspect Zero (2004)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 146684,
+        "title": "Cosmic Scrat-tastrophe (2015)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 72167,
+        "title": "Boondock Saints II: All Saints Day, The (2009)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 120130,
+        "title": "Into the Forest of Fireflies' Light (2011)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 7238,
+        "title": "Ashes and Diamonds (Popi\u00f3l i diament) (1958)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 92637,
+        "title": "Pitfall (Otoshiana) (1962)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 7041,
+        "title": "Trapped in Paradise (1994)",
+        "genre_watched": "Comedy",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 3521,
+        "title": "Mystery Train (1989)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 170411,
+        "title": "Dave Chappelle: Deep in the Heart of Texas (2017)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 3456,
+        "title": "Color of Paradise, The (Rang-e khoda) (1999)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 3868,
+        "title": "Naked Gun: From the Files of Police Squad!, The (1988)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 69860,
+        "title": "Eichmann (2007)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 82093,
+        "title": "London Boulevard (2010)",
+        "genre_watched": "Crime",
+        "rating": 5.0
+      }
+    ]
+  },
+  {
+    "user_id": 9,
+    "name": "Robert",
+    "age": 24,
+    "preferred_genres": [
+      "Action"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 161290,
+        "title": "Vigilante Diaries (2016)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 53466,
+        "title": "Nancy Drew (2007)",
+        "genre_watched": "Adventure",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 5246,
+        "title": "Smokey and the Bandit II (1980)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 54995,
+        "title": "Planet Terror (2007)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 36850,
+        "title": "Police Story 2 (Ging chaat goo si juk jaap) (1988)",
+        "genre_watched": "Action",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 34536,
+        "title": "The Great Raid (2005)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 90249,
+        "title": "Real Steel (2011)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 102338,
+        "title": "Shaolin Temple (Shao Lin si) (1976)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 2281,
+        "title": "Monument Ave. (1998)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 493,
+        "title": "Menace II Society (1993)",
+        "genre_watched": "Crime",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 135532,
+        "title": "The Last Witch Hunter (2015)",
+        "genre_watched": "Adventure",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 82641,
+        "title": "One-Armed Swordsman, The (Dubei dao) (1967)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3029,
+        "title": "Nighthawks (1981)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5961,
+        "title": "Blue Steel (1990)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "user_id": 10,
+    "name": "Anthony",
+    "age": 23,
+    "preferred_genres": [
+      "Horror",
+      "Animation"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 130520,
+        "title": "Home (2015)",
+        "genre_watched": "Sci-Fi",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 84952,
+        "title": "Confessions (Kokuhaku) (2010)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 48414,
+        "title": "Open Season (2006)",
+        "genre_watched": "Animation",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 86286,
+        "title": "Daffy Duck's Quackbusters (1988)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2754,
+        "title": "Deadtime Stories (1987)",
+        "genre_watched": "Horror",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 3285,
+        "title": "Beach, The (2000)",
+        "genre_watched": "Adventure",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 4886,
+        "title": "Monsters, Inc. (2001)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 7900,
+        "title": "Frankenstein Must Be Destroyed (1969)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 8974,
+        "title": "SpongeBob SquarePants Movie, The (2004)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 93819,
+        "title": "Absentia (2011)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2011,
+        "title": "Back to the Future Part II (1989)",
+        "genre_watched": "Sci-Fi",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 176389,
+        "title": "The Nut Job 2: Nutty by Nature (2017)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 102084,
+        "title": "Justice League: Doom (2012) ",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 1037,
+        "title": "Lawnmower Man, The (1992)",
+        "genre_watched": "Thriller",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 1977,
+        "title": "Friday the 13th Part IV: The Final Chapter (1984)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5146,
+        "title": "Vampire Hunter D: Bloodlust (Banpaia hant\u00e2 D) (2000)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 5165,
+        "title": "Zombie (a.k.a. Zombie 2: The Dead Are Among Us) (Zombi 2) (1979)",
+        "genre_watched": "Horror",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 2559,
+        "title": "King and I, The (1999)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 610,
+        "title": "Heavy Metal (1981)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4306,
+        "title": "Shrek (2001)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 127390,
+        "title": "Family Guy Presents: Blue Harvest (2007)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 26776,
+        "title": "Porco Rosso (Crimson Pig) (Kurenai no buta) (1992)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 166183,
+        "title": "Junior and Karlson (1968)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 115065,
+        "title": "Justin and the Knights of Valour (2013)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 7075,
+        "title": "Court Jester, The (1956)",
+        "genre_watched": "Adventure",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 110746,
+        "title": "Hatchet III (2013)",
+        "genre_watched": "Horror",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 148172,
+        "title": "The 5th Wave (2016)",
+        "genre_watched": "Sci-Fi",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 175397,
+        "title": "In the blue sea, in the white foam. (1984)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 90603,
+        "title": "Batman: Year One (2011)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 27186,
+        "title": "Kirikou and the Sorceress (Kirikou et la sorci\u00e8re) (1998)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 62999,
+        "title": "Madagascar: Escape 2 Africa (2008)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 172587,
+        "title": "Vacations in Prostokvashino (1980)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 1644,
+        "title": "I Know What You Did Last Summer (1997)",
+        "genre_watched": "Horror",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 138702,
+        "title": "Feast (2014)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 69211,
+        "title": "Boy Eats Girl (2005)",
+        "genre_watched": "Horror",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 117922,
+        "title": "Ice Age: A Mammoth Christmas (2011)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 3940,
+        "title": "Slumber Party Massacre III (1990)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4138,
+        "title": "My Demon Lover (1987)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 134853,
+        "title": "Inside Out (2015)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 110655,
+        "title": "Rio 2 (2014)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 26587,
+        "title": "Decalogue, The (Dekalog) (1989)",
+        "genre_watched": "Crime",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 67295,
+        "title": "Kung Fu Panda: Secrets of the Furious Five (2008)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 1998,
+        "title": "Exorcist II: The Heretic (1977)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 5109,
+        "title": "Return to Never Land (2002)",
+        "genre_watched": "Animation",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 2699,
+        "title": "Arachnophobia (1990)",
+        "genre_watched": "Horror",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 69644,
+        "title": "Ice Age: Dawn of the Dinosaurs (2009)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4006,
+        "title": "Transformers: The Movie (1986)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 3662,
+        "title": "Puppet Master III: Toulon's Revenge (1991)",
+        "genre_watched": "Sci-Fi",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 631,
+        "title": "All Dogs Go to Heaven 2 (1996)",
+        "genre_watched": "Animation",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 3830,
+        "title": "Psycho Beach Party (2000)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 33085,
+        "title": "Amityville Horror, The (2005)",
+        "genre_watched": "Horror",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 55492,
+        "title": "Last Winter, The (2006)",
+        "genre_watched": "Horror",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 4154,
+        "title": "Recess: School's Out (2001)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 7757,
+        "title": "Jason and the Argonauts (1963)",
+        "genre_watched": "Adventure",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 91353,
+        "title": "Asterix in America (a.k.a Asterix Conquers America) (Ast\u00e9rix et les Indiens) (1994)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3658,
+        "title": "Quatermass and the Pit (1967)",
+        "genre_watched": "Horror",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4873,
+        "title": "Waking Life (2001)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 8861,
+        "title": "Resident Evil: Apocalypse (2004)",
+        "genre_watched": "Horror",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 2428,
+        "title": "Faculty, The (1998)",
+        "genre_watched": "Horror",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 3287,
+        "title": "Tigger Movie, The (2000)",
+        "genre_watched": "Animation",
+        "rating": 2.5
+      }
+    ]
+  },
+  {
+    "user_id": 11,
+    "name": "Jeffery",
+    "age": 42,
+    "preferred_genres": [
+      "Comedy",
+      "Thriller",
+      "Crime"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 4407,
+        "title": "Salvador (1986)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4135,
+        "title": "Monster Squad, The (1987)",
+        "genre_watched": "Horror",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 55112,
+        "title": "Shanghai Kiss (2007)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 103602,
+        "title": "Craig Ferguson: I'm Here To Help (2013)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 3997,
+        "title": "Dungeons & Dragons (2000)",
+        "genre_watched": "Comedy",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3590,
+        "title": "Lords of Flatbush, The (1974)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2356,
+        "title": "Celebrity (1998)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 72104,
+        "title": "Balance (1989)",
+        "genre_watched": "Thriller",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 407,
+        "title": "In the Mouth of Madness (1995)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 7258,
+        "title": "Perfect Score, The (2004)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 931,
+        "title": "Spellbound (1945)",
+        "genre_watched": "Thriller",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "user_id": 12,
+    "name": "William",
+    "age": 24,
+    "preferred_genres": [
+      "Adventure",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 6990,
+        "title": "The Great Train Robbery (1978)",
+        "genre_watched": "Adventure",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 829,
+        "title": "Joe's Apartment (1996)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 51540,
+        "title": "Zodiac (2007)",
+        "genre_watched": "Thriller",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 169982,
+        "title": "Power Rangers (2017)",
+        "genre_watched": "Sci-Fi",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 90403,
+        "title": "Three Musketeers, The (2011)",
+        "genre_watched": "Adventure",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 7001,
+        "title": "Invasion of the Body Snatchers (1978)",
+        "genre_watched": "Sci-Fi",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 120783,
+        "title": "Son of a Gun (2014)",
+        "genre_watched": "Crime",
+        "rating": 1.5
+      },
+      {
+        "movie_id": 167370,
+        "title": "Assassin's Creed (2016)",
+        "genre_watched": "Adventure",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 86190,
+        "title": "Hanna (2011)",
+        "genre_watched": "Thriller",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 320,
+        "title": "Suture (1993)",
+        "genre_watched": "Thriller",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 130840,
+        "title": "Spring (2015)",
+        "genre_watched": "Sci-Fi",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 455,
+        "title": "Free Willy (1993)",
+        "genre_watched": "Adventure",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 57504,
+        "title": "Girl Who Leapt Through Time, The (Toki o kakeru sh\u00f4jo) (2006)",
+        "genre_watched": "Sci-Fi",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "user_id": 13,
+    "name": "Anthony",
+    "age": 40,
+    "preferred_genres": [
+      "Action",
+      "Comedy"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 54995,
+        "title": "Planet Terror (2007)",
+        "genre_watched": "Horror",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 7884,
+        "title": "Highway 61 (1991)",
+        "genre_watched": "Comedy",
+        "rating": 1.5
+      },
+      {
+        "movie_id": 4782,
+        "title": "Sidewalks of New York (2001)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 6016,
+        "title": "City of God (Cidade de Deus) (2002)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4349,
+        "title": "Catch-22 (1970)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 126088,
+        "title": "A Flintstones Christmas Carol (1994)",
+        "genre_watched": "Comedy",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 27695,
+        "title": "Nicotina (2003)",
+        "genre_watched": "Action",
+        "rating": 3.0
+      }
+    ]
+  },
+  {
+    "user_id": 14,
+    "name": "James",
+    "age": 40,
+    "preferred_genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 86892,
+        "title": "The Man from Nowhere (2010)",
+        "genre_watched": "Action",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 107953,
+        "title": "Dragon Ball Z: Battle of Gods (2013)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 55946,
+        "title": "Lions For Lambs (2007)",
+        "genre_watched": "Thriller",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 92008,
+        "title": "Haywire (2011)",
+        "genre_watched": "Thriller",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 40148,
+        "title": "Revolver (2005)",
+        "genre_watched": "Thriller",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 7305,
+        "title": "Black Widow (1987)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 5159,
+        "title": "Ferngully: The Last Rainforest (1992)",
+        "genre_watched": "Animation",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 3640,
+        "title": "King in New York, A (1957)",
+        "genre_watched": "Drama",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 65810,
+        "title": "Notorious (2009)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 96945,
+        "title": "Love Lasts Three Years (L'amour dure trois ans) (2011)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 130452,
+        "title": "While We're Young (2014)",
+        "genre_watched": "Drama",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "user_id": 15,
+    "name": "Debra",
+    "age": 56,
+    "preferred_genres": [
+      "Comedy",
+      "Sci-Fi",
+      "Romance"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 5970,
+        "title": "My Girl (1991)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 26903,
+        "title": "Whisper of the Heart (Mimi wo sumaseba) (1995)",
+        "genre_watched": "Romance",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 148881,
+        "title": "World of Tomorrow (2015)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5543,
+        "title": "Swarm, The (1978)",
+        "genre_watched": "Sci-Fi",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 6920,
+        "title": "Cercle Rouge, Le (Red Circle, The) (1970)",
+        "genre_watched": "Crime",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 95720,
+        "title": "Watch, The (2012)",
+        "genre_watched": "Sci-Fi",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 51834,
+        "title": "Becoming Jane (2007)",
+        "genre_watched": "Romance",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 6889,
+        "title": "Brother Bear (2003)",
+        "genre_watched": "Animation",
+        "rating": 2.5
+      }
+    ]
+  },
+  {
+    "user_id": 16,
+    "name": "Amy",
+    "age": 34,
+    "preferred_genres": [
+      "Drama",
+      "Crime"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 4799,
+        "title": "It's a Mad, Mad, Mad, Mad World (1963)",
+        "genre_watched": "Crime",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 46855,
+        "title": "Army of Shadows (L'arm\u00e9e des ombres) (1969)",
+        "genre_watched": "Thriller",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 970,
+        "title": "Beat the Devil (1953)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 44204,
+        "title": "Tsotsi (2005)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 127116,
+        "title": "Experimenter (2015)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 134881,
+        "title": "Love & Mercy (2014)",
+        "genre_watched": "Drama",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 1286,
+        "title": "Somewhere in Time (1980)",
+        "genre_watched": "Romance",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 4006,
+        "title": "Transformers: The Movie (1986)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 259,
+        "title": "Kiss of Death (1995)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 3899,
+        "title": "Circus (2000)",
+        "genre_watched": "Crime",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 27397,
+        "title": "Joint Security Area (Gongdong gyeongbi guyeok JSA) (2000)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 1804,
+        "title": "Newton Boys, The (1998)",
+        "genre_watched": "Crime",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 44197,
+        "title": "Find Me Guilty (2006)",
+        "genre_watched": "Crime",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "user_id": 17,
+    "name": "Jeffrey",
+    "age": 20,
+    "preferred_genres": [
+      "Action",
+      "Adventure",
+      "Animation"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 89582,
+        "title": "Cold Fish (Tsumetai nettaigyo) (2010)",
+        "genre_watched": "Thriller",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 111146,
+        "title": "Alpha and Omega 3: The Great Wolf Games (2014)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 26865,
+        "title": "Fist of Legend (Jing wu ying xiong) (1994)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 610,
+        "title": "Heavy Metal (1981)",
+        "genre_watched": "Adventure",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5155,
+        "title": "Big Bird Cage, The (1972)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3000,
+        "title": "Princess Mononoke (Mononoke-hime) (1997)",
+        "genre_watched": "Adventure",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 136016,
+        "title": "The Good Dinosaur (2015)",
+        "genre_watched": "Adventure",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 2881,
+        "title": "Double Jeopardy (1999)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 98124,
+        "title": "Batman: The Dark Knight Returns, Part 1 (2012)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 41627,
+        "title": "Samurai Rebellion (J\u00f4i-uchi: Hairy\u00f4 tsuma shimatsu) (1967)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 5878,
+        "title": "Talk to Her (Hable con Ella) (2002)",
+        "genre_watched": "Drama",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 86593,
+        "title": "African Cats (2011)",
+        "genre_watched": "Adventure",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 129937,
+        "title": "Run All Night (2015)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 122918,
+        "title": "Guardians of the Galaxy 2 (2017)",
+        "genre_watched": "Adventure",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 36509,
+        "title": "Cave, The (2005)",
+        "genre_watched": "Adventure",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 71135,
+        "title": "Pandorum (2009)",
+        "genre_watched": "Sci-Fi",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 8914,
+        "title": "Primer (2004)",
+        "genre_watched": "Sci-Fi",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 6163,
+        "title": "He Loves Me... He Loves Me Not (\u00c0 la folie... pas du tout) (2002)",
+        "genre_watched": "Thriller",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 3549,
+        "title": "Guys and Dolls (1955)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 141830,
+        "title": "Unbelievable Adventures of Italians in Russia (1974)",
+        "genre_watched": "Adventure",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 73042,
+        "title": "Alvin and the Chipmunks: The Squeakquel (2009)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 102058,
+        "title": "Hulk Vs. (2009)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2085,
+        "title": "101 Dalmatians (One Hundred and One Dalmatians) (1961)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 72104,
+        "title": "Balance (1989)",
+        "genre_watched": "Animation",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 72308,
+        "title": "Battlestar Galactica: The Plan (2009)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 58975,
+        "title": "Ruins, The (2008)",
+        "genre_watched": "Thriller",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 2890,
+        "title": "Three Kings (1999)",
+        "genre_watched": "Adventure",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 1688,
+        "title": "Anastasia (1997)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 709,
+        "title": "Oliver & Company (1988)",
+        "genre_watched": "Adventure",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5651,
+        "title": "Incredible Mr. Limpet, The (1964)",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 30810,
+        "title": "Life Aquatic with Steve Zissou, The (2004)",
+        "genre_watched": "Adventure",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3452,
+        "title": "Romeo Must Die (2000)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 95475,
+        "title": "Dragon Ball Z: Cooler's Revenge (Doragon b\u00f4ru Z 5: Tobikkiri no saiky\u00f4 tai saiky\u00f4) (1991)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 3623,
+        "title": "Mission: Impossible II (2000)",
+        "genre_watched": "Adventure",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 8633,
+        "title": "Last Starfighter, The (1984)",
+        "genre_watched": "Adventure",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 2405,
+        "title": "Jewel of the Nile, The (1985)",
+        "genre_watched": "Adventure",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 2429,
+        "title": "Mighty Joe Young (1998)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 162968,
+        "title": "Kizumonogatari Part 1: Tekketsu (2016)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 102084,
+        "title": "Justice League: Doom (2012) ",
+        "genre_watched": "Animation",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 37731,
+        "title": "Green Street Hooligans (a.k.a. Hooligans) (2005)",
+        "genre_watched": "Crime",
+        "rating": 2.5
+      },
+      {
+        "movie_id": 258,
+        "title": "Kid in King Arthur's Court, A (1995)",
+        "genre_watched": "Adventure",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 27695,
+        "title": "Nicotina (2003)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 64285,
+        "title": "Wallace and Gromit in 'A Matter of Loaf and Death' (2008)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 95771,
+        "title": "Dragon Ball Z: Broly Second Coming (Doragon b\u00f4ru Z 10: Kiken na futari! S\u00fbp\u00e2 senshi wa nemurenai) (1994)",
+        "genre_watched": "Animation",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 32460,
+        "title": "Knockin' on Heaven's Door (1997)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 86298,
+        "title": "Rio (2011)",
+        "genre_watched": "Animation",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 60937,
+        "title": "Mummy: Tomb of the Dragon Emperor, The (2008)",
+        "genre_watched": "Thriller",
+        "rating": 2.0
+      },
+      {
+        "movie_id": 8905,
+        "title": "1492: Conquest of Paradise (1992)",
+        "genre_watched": "Adventure",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 2422,
+        "title": "Karate Kid, Part III, The (1989)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 5418,
+        "title": "Bourne Identity, The (2002)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 1456,
+        "title": "Pest, The (1997)",
+        "genre_watched": "Comedy",
+        "rating": 3.0
+      }
+    ]
+  },
+  {
+    "user_id": 18,
+    "name": "Bridget",
+    "age": 64,
+    "preferred_genres": [
+      "Thriller"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 58826,
+        "title": "Shepherd: Border Patrol, The (2008)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 151777,
+        "title": "The Finest Hours (2016)",
+        "genre_watched": "Thriller",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 116823,
+        "title": "The Hunger Games: Mockingjay - Part 1 (2014)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 4037,
+        "title": "House of Games (1987)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 2995,
+        "title": "House on Haunted Hill (1999)",
+        "genre_watched": "Thriller",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 130634,
+        "title": "Furious 7 (2015)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 37720,
+        "title": "Exorcism of Emily Rose, The (2005)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 804,
+        "title": "She's the One (1996)",
+        "genre_watched": "Romance",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 1689,
+        "title": "Man Who Knew Too Little, The (1997)",
+        "genre_watched": "Thriller",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 3687,
+        "title": "Light Years (Gandahar) (1988)",
+        "genre_watched": "Animation",
+        "rating": 3.0
+      },
+      {
+        "movie_id": 628,
+        "title": "Primal Fear (1996)",
+        "genre_watched": "Thriller",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 1754,
+        "title": "Fallen (1998)",
+        "genre_watched": "Thriller",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 908,
+        "title": "North by Northwest (1959)",
+        "genre_watched": "Thriller",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 5329,
+        "title": "Salton Sea, The (2002)",
+        "genre_watched": "Crime",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 4965,
+        "title": "Business of Strangers, The (2001)",
+        "genre_watched": "Thriller",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "user_id": 19,
+    "name": "Lisa",
+    "age": 47,
+    "preferred_genres": [
+      "Crime",
+      "Action"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 3265,
+        "title": "Hard-Boiled (Lat sau san taam) (1992)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 26151,
+        "title": "Au Hasard Balthazar (1966)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 761,
+        "title": "Phantom, The (1996)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 51939,
+        "title": "TMNT (Teenage Mutant Ninja Turtles) (2007)",
+        "genre_watched": "Action",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 88593,
+        "title": "Yellow Sea, The (a.k.a. The Murderer) (Hwanghae) (2010)",
+        "genre_watched": "Crime",
+        "rating": 4.0
+      },
+      {
+        "movie_id": 47254,
+        "title": "Chaos (2005)",
+        "genre_watched": "Action",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 43928,
+        "title": "Ultraviolet (2006)",
+        "genre_watched": "Action",
+        "rating": 5.0
+      }
+    ]
+  },
+  {
+    "user_id": 20,
+    "name": "Adam",
+    "age": 52,
+    "preferred_genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "watch_history": [
+      {
+        "movie_id": 140289,
+        "title": "Men & Chicken (2015)",
+        "genre_watched": "Comedy",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 1441,
+        "title": "Benny & Joon (1993)",
+        "genre_watched": "Romance",
+        "rating": 5.0
+      },
+      {
+        "movie_id": 1042,
+        "title": "That Thing You Do! (1996)",
+        "genre_watched": "Comedy",
+        "rating": 3.5
+      },
+      {
+        "movie_id": 59549,
+        "title": "Shelter (2007)",
+        "genre_watched": "Romance",
+        "rating": 4.5
+      },
+      {
+        "movie_id": 4756,
+        "title": "Musketeer, The (2001)",
+        "genre_watched": "Action",
+        "rating": 4.0
+      }
+    ]
+  }
+]
