@@ -115,7 +115,7 @@ brand = {
 # Change the value of number_stores to 2.
 brand["number_stores"] = 2
 # Print a sentence describing Zara’s clients using the type_of_clothes key.
-print(f"Zara's clients are {", ".join(brand["type_of_clothes"])}.")
+print(f"Zara's clients are {','.join(brand["type_of_clothes"])}.")
 # Add a new key country_creation with the value Spain.
 brand["country_creation"] = "Spain"
 # Check if international_competitors exists and, if so, add “Desigual” to the list.

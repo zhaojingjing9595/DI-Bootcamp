@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .venv
+Week6/Day2/Dogs vs Cats
+.DS_Store
+*.zip
