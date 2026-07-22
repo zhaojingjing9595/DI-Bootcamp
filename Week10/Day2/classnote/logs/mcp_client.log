@@ -1,0 +1,537 @@
+2026-07-22 19:48:39  DEBUG    asyncio  Using selector: KqueueSelector
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  Connecting to StreamableHTTP endpoint: http://127.0.0.1:8000/mcp/
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='initialize', params={'protocolVersion': '2025-11-25', 'capabilities': {}, 'clientInfo': {'name': 'mcp', 'version': '0.1.0'}}, jsonrpc='2.0', id=0)
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112049210>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:48:39  INFO     mcp.client.streamable_http  Received session ID: 3d2bc7462b2b4d04a822e7db31e1cfef
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=0, result={'protocolVersion': '2025-11-25', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': False}}, 'serverInfo': {'name': 'Workshop', 'version': '1.28.1'}})
+2026-07-22 19:48:39  INFO     mcp.client.streamable_http  Negotiated protocol version: 2025-11-25
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x11204b5d0>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x11204b3d0>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: GET http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 202, b'Accepted', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'content-type', b'application/json'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'content-length', b'0')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 202 Accepted"
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  Received 202 Accepted
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='tools/list', params=None, jsonrpc='2.0', id=1)
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: GET http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  GET SSE connection established
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'GET']>
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x11205e1d0>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:48:38 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:48:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=1, result={'tools': [{'name': 'read_file', 'description': 'Read any text file from the current directory and return its full contents.', 'inputSchema': {'properties': {'filename': {'title': 'Filename', 'type': 'string'}}, 'required': ['filename'], 'title': 'read_fileArguments', 'type': 'object'}, 'outputSchema': {'properties': {'result': {'title': 'Result', 'type': 'string'}}, 'required': ['result'], 'title': 'read_fileOutput', 'type': 'object'}}, {'name': 'get_weather', 'description': 'Get the current weather conditions and temperature for any city in the world.', 'inputSchema': {'properties': {'city': {'title': 'City', 'type': 'string'}}, 'required': ['city'], 'title': 'get_weatherArguments', 'type': 'object'}, 'outputSchema': {'properties': {'result': {'title': 'Result', 'type': 'string'}}, 'required': ['result'], 'title': 'get_weatherOutput', 'type': 'object'}}]})
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:39  INFO     __main__  Discovered tools: ['read_file', 'get_weather']
+2026-07-22 19:48:39  INFO     __main__  ======================================================================
+2026-07-22 19:48:39  INFO     __main__  SCENARIO 1 — direct response, no tool
+2026-07-22 19:48:39  INFO     __main__  ======================================================================
+2026-07-22 19:48:39  DEBUG    __main__    [system] You are a helpful assistant.
+2026-07-22 19:48:39  DEBUG    __main__    [user] What is 12 times 4?
+2026-07-22 19:48:39  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-fdde9c6b-3d93-4376-94d7-1c3627f31181', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant.'}, {'role': 'user', 'content': 'What is 12 times 4?'}], 'model': 'qwen2.5:3b', 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'read_file', 'description': 'Read any text file from the current directory and return its full contents.', 'parameters': {'properties': {'filename': {'title': 'Filename', 'type': 'string'}}, 'required': ['filename'], 'title': 'read_fileArguments', 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_weather', 'description': 'Get the current weather conditions and temperature for any city in the world.', 'parameters': {'properties': {'city': {'title': 'City', 'type': 'string'}}, 'required': ['city'], 'title': 'get_weatherArguments', 'type': 'object'}}}]}}
+2026-07-22 19:48:39  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=5.0 socket_options=None
+2026-07-22 19:48:39  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x112b0c3d0>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:57  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:48:57 GMT'), (b'Content-Length', b'485')])
+2026-07-22 19:48:57  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:48:57  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:48:57  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:48:57  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:48:57  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:48:57  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:48:57 GMT', 'content-length': '485'})
+2026-07-22 19:48:57  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:48:57  INFO     __main__  No tool needed. Answer: This is a straightforward mathematical operation. We can calculate it directly without needing any external tools for this specific task.
+
+Calculation: \(12 \times 4 = 48\)
+
+The answer is 48.
+2026-07-22 19:48:57  INFO     __main__  ======================================================================
+2026-07-22 19:48:57  INFO     __main__  SCENARIO 2 — one tool (get_weather)
+2026-07-22 19:48:57  INFO     __main__  ======================================================================
+2026-07-22 19:48:57  DEBUG    __main__    [system] You are a helpful assistant. Call a tool whenever it can answer the question. Treat tool results as true, current data — never say you lack real-time access.
+2026-07-22 19:48:57  DEBUG    __main__    [user] What's the weather like in Paris right now?
+2026-07-22 19:48:57  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-d2ef1a04-06cf-470e-8b3b-f31faf7a63b8', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant. Call a tool whenever it can answer the question. Treat tool results as true, current data — never say you lack real-time access.'}, {'role': 'user', 'content': "What's the weather like in Paris right now?"}], 'model': 'qwen2.5:3b', 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'read_file', 'description': 'Read any text file from the current directory and return its full contents.', 'parameters': {'properties': {'filename': {'title': 'Filename', 'type': 'string'}}, 'required': ['filename'], 'title': 'read_fileArguments', 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_weather', 'description': 'Get the current weather conditions and temperature for any city in the world.', 'parameters': {'properties': {'city': {'title': 'City', 'type': 'string'}}, 'required': ['city'], 'title': 'get_weatherArguments', 'type': 'object'}}}]}}
+2026-07-22 19:48:57  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:48:57  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:48:57  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:48:57  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:48:57  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:48:57  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:49:03 GMT'), (b'Content-Length', b'428')])
+2026-07-22 19:49:03  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:03  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:03  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:49:03 GMT', 'content-length': '428'})
+2026-07-22 19:49:03  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:49:03  INFO     __main__  Model wants 1 tool call(s):
+2026-07-22 19:49:03  INFO     __main__    get_weather({"city":"Paris"})
+2026-07-22 19:49:03  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='tools/call', params={'name': 'get_weather', 'arguments': {'city': 'Paris'}}, jsonrpc='2.0', id=2)
+2026-07-22 19:49:03  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:49:03  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x11205fd10>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:49:02 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:49:03  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:03  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:49:02 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:49:03  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=2, result={'content': [{'type': 'text', 'text': 'Paris: ☀️  +25°C'}], 'structuredContent': {'result': 'Paris: ☀️  +25°C'}, 'isError': False})
+2026-07-22 19:49:03  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:03  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:03  DEBUG    __main__    get_weather -> Paris: ☀️  +25°C
+2026-07-22 19:49:03  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-b88cbbee-d966-467d-ac4d-18b815f16424', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant. Call a tool whenever it can answer the question. Treat tool results as true, current data — never say you lack real-time access.'}, {'role': 'user', 'content': "What's the weather like in Paris right now?"}, {'content': '', 'role': 'assistant', 'tool_calls': [{'id': 'call_r9gshdma', 'function': {'arguments': '{"city":"Paris"}', 'name': 'get_weather'}, 'type': 'function', 'index': 0}]}, {'role': 'tool', 'tool_call_id': 'call_r9gshdma', 'content': 'Paris: ☀️  +25°C'}], 'model': 'qwen2.5:3b'}}
+2026-07-22 19:49:03  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:03  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:03  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:09  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:49:09 GMT'), (b'Content-Length', b'467')])
+2026-07-22 19:49:09  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:49:09  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:09  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:09  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:09  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:09  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:49:09 GMT', 'content-length': '467'})
+2026-07-22 19:49:09  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:49:09  INFO     __main__  Final answer: Currently, it is sunny in Paris with a temperature of +25°C. Please note that I'm providing the information based on the last available data and times may have changed since then.
+2026-07-22 19:49:09  INFO     __main__  ======================================================================
+2026-07-22 19:49:09  INFO     __main__  SCENARIO 3 — two+ tools (read_file + get_weather)
+2026-07-22 19:49:09  INFO     __main__  ======================================================================
+2026-07-22 19:49:09  DEBUG    __main__    [system] You are a helpful assistant. Call as many tools as needed to fully answer — you may need more than one.
+2026-07-22 19:49:09  DEBUG    __main__    [user] Read notes.txt for me, and separately tell me the current weather in Tokyo.
+2026-07-22 19:49:09  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-5de5e7fa-981d-4b24-8105-8010ffa4bd15', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant. Call as many tools as needed to fully answer — you may need more than one.'}, {'role': 'user', 'content': 'Read notes.txt for me, and separately tell me the current weather in Tokyo.'}], 'model': 'qwen2.5:3b', 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'read_file', 'description': 'Read any text file from the current directory and return its full contents.', 'parameters': {'properties': {'filename': {'title': 'Filename', 'type': 'string'}}, 'required': ['filename'], 'title': 'read_fileArguments', 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_weather', 'description': 'Get the current weather conditions and temperature for any city in the world.', 'parameters': {'properties': {'city': {'title': 'City', 'type': 'string'}}, 'required': ['city'], 'title': 'get_weatherArguments', 'type': 'object'}}}]}}
+2026-07-22 19:49:09  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:49:09  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:09  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:09  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:09  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:09  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:49:18 GMT'), (b'Content-Length', b'554')])
+2026-07-22 19:49:18  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:18  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:49:18 GMT', 'content-length': '554'})
+2026-07-22 19:49:18  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:49:18  INFO     __main__  Model wants 2 tool call(s):
+2026-07-22 19:49:18  INFO     __main__    read_file({"filename":"notes.txt"})
+2026-07-22 19:49:18  INFO     __main__    get_weather({"city":"Tokyo"})
+2026-07-22 19:49:18  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='tools/call', params={'name': 'read_file', 'arguments': {'filename': 'notes.txt'}}, jsonrpc='2.0', id=3)
+2026-07-22 19:49:18  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:49:18  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112b43950>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:49:17 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:49:18  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:49:17 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:49:18  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=3, result={'content': [{'type': 'text', 'text': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}], 'structuredContent': {'result': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}, 'isError': False})
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:18  DEBUG    __main__    read_file -> Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.
+2026-07-22 19:49:18  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='tools/call', params={'name': 'get_weather', 'arguments': {'city': 'Tokyo'}}, jsonrpc='2.0', id=4)
+2026-07-22 19:49:18  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:49:18  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112033990>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:49:17 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:49:18  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:49:17 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:49:18  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=4, result={'content': [{'type': 'text', 'text': 'Tokyo: 🌤️  +27°C'}], 'structuredContent': {'result': 'Tokyo: 🌤️  +27°C'}, 'isError': False})
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:18  DEBUG    __main__    get_weather -> Tokyo: 🌤️  +27°C
+2026-07-22 19:49:18  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-b0d714d4-22a7-438f-9c83-f1c035b07d61', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant. Call as many tools as needed to fully answer — you may need more than one.'}, {'role': 'user', 'content': 'Read notes.txt for me, and separately tell me the current weather in Tokyo.'}, {'content': '', 'role': 'assistant', 'tool_calls': [{'id': 'call_kxptluau', 'function': {'arguments': '{"filename":"notes.txt"}', 'name': 'read_file'}, 'type': 'function', 'index': 0}, {'id': 'call_cva0ujex', 'function': {'arguments': '{"city":"Tokyo"}', 'name': 'get_weather'}, 'type': 'function', 'index': 1}]}, {'role': 'tool', 'tool_call_id': 'call_kxptluau', 'content': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}, {'role': 'tool', 'tool_call_id': 'call_cva0ujex', 'content': 'Tokyo: 🌤️  +27°C'}], 'model': 'qwen2.5:3b'}}
+2026-07-22 19:49:18  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:18  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:18  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:49:29 GMT'), (b'Content-Length', b'627')])
+2026-07-22 19:49:29  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:29  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:29  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:29  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:49:29 GMT', 'content-length': '627'})
+2026-07-22 19:49:29  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:49:29  INFO     __main__  Final answer: Based on the notes provided in the file 'notes.txt', Mr. Zhao is a 30-year-old individual who has worked for many years at a high-tech company and is currently looking to find a new job in this field.
+
+Regarding the current weather, it seems that Tokyo has been experiencing mild weather with a 🌤️. The current temperature is +27°C.
+2026-07-22 19:49:29  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='resources/read', params={'uri': 'notes://today'}, jsonrpc='2.0', id=5)
+2026-07-22 19:49:29  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:49:29  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112b5e390>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:49:29 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:49:29  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:29  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:29  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:49:29 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:49:29  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:49:29  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:29  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=5, result={'contents': [{'uri': 'notes://today', 'mimeType': 'text/plain', 'text': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}]})
+2026-07-22 19:49:29  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:29  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:29  INFO     __main__  ======================================================================
+2026-07-22 19:49:29  INFO     __main__  SCENARIO 4 — resource (notes://today) + tool (get_weather)
+2026-07-22 19:49:29  INFO     __main__  ======================================================================
+2026-07-22 19:49:29  DEBUG    __main__    [system] You are a helpful assistant. Today's notes are already loaded for you: Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field. Call a tool for anything these notes don't cover.
+2026-07-22 19:49:29  DEBUG    __main__    [user] Based on today's notes, what should I focus on? Also, what's the weather in New York?
+2026-07-22 19:49:29  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-b1707bac-93e8-4098-8fba-6e8d45d18239', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are a helpful assistant. Today's notes are already loaded for you: Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field. Call a tool for anything these notes don't cover."}, {'role': 'user', 'content': "Based on today's notes, what should I focus on? Also, what's the weather in New York?"}], 'model': 'qwen2.5:3b', 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'read_file', 'description': 'Read any text file from the current directory and return its full contents.', 'parameters': {'properties': {'filename': {'title': 'Filename', 'type': 'string'}}, 'required': ['filename'], 'title': 'read_fileArguments', 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_weather', 'description': 'Get the current weather conditions and temperature for any city in the world.', 'parameters': {'properties': {'city': {'title': 'City', 'type': 'string'}}, 'required': ['city'], 'title': 'get_weatherArguments', 'type': 'object'}}}]}}
+2026-07-22 19:49:29  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:49:29  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:30  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:30  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:30  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:30  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:49:39 GMT'), (b'Content-Length', b'557')])
+2026-07-22 19:49:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:39  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:49:39 GMT', 'content-length': '557'})
+2026-07-22 19:49:39  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:49:39  INFO     __main__  Model wants 2 tool call(s):
+2026-07-22 19:49:39  INFO     __main__    read_file({"filename":"notes.txt"})
+2026-07-22 19:49:39  INFO     __main__    get_weather({"city":"New York"})
+2026-07-22 19:49:39  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='tools/call', params={'name': 'read_file', 'arguments': {'filename': 'notes.txt'}}, jsonrpc='2.0', id=6)
+2026-07-22 19:49:39  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:49:39  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112b5d350>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:49:38 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:49:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:49:38 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:49:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=6, result={'content': [{'type': 'text', 'text': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}], 'structuredContent': {'result': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}, 'isError': False})
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:39  DEBUG    __main__    read_file -> Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.
+2026-07-22 19:49:39  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='tools/call', params={'name': 'get_weather', 'arguments': {'city': 'New York'}}, jsonrpc='2.0', id=7)
+2026-07-22 19:49:39  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:49:39  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112b0ced0>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:49:38 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:49:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:49:38 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:49:39  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=7, result={'content': [{'type': 'text', 'text': 'New York: ☀️  +26°C'}], 'structuredContent': {'result': 'New York: ☀️  +26°C'}, 'isError': False})
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:39  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:39  DEBUG    __main__    get_weather -> New York: ☀️  +26°C
+2026-07-22 19:49:39  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-3bf564bb-159f-4f37-b927-e252c1f7b18a', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are a helpful assistant. Today's notes are already loaded for you: Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field. Call a tool for anything these notes don't cover."}, {'role': 'user', 'content': "Based on today's notes, what should I focus on? Also, what's the weather in New York?"}, {'content': '', 'role': 'assistant', 'tool_calls': [{'id': 'call_dpsofffa', 'function': {'arguments': '{"filename":"notes.txt"}', 'name': 'read_file'}, 'type': 'function', 'index': 0}, {'id': 'call_ee5hep0e', 'function': {'arguments': '{"city":"New York"}', 'name': 'get_weather'}, 'type': 'function', 'index': 1}]}, {'role': 'tool', 'tool_call_id': 'call_dpsofffa', 'content': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}, {'role': 'tool', 'tool_call_id': 'call_ee5hep0e', 'content': 'New York: ☀️  +26°C'}], 'model': 'qwen2.5:3b'}}
+2026-07-22 19:49:39  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:39  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:39  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:49:58 GMT'), (b'Content-Length', b'966')])
+2026-07-22 19:49:58  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:58  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:58  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:49:58 GMT', 'content-length': '966'})
+2026-07-22 19:49:58  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:49:58  INFO     __main__  Final answer: Based on today's notes, you should focus on Mr Zhao's professional situation. He is a 30-year-old man experienced in the high-tech field and is currently looking for a new job within that sector.
+
+In response to your second query about weather, the current temperature in New York is +26°C (°C might be preferred as it indicates cooler conditions). In warmer regions or seasons, it might seem like an ideal day, but if you are in New York and this information applies today, you would need appropriate clothing to stay comfortable. 
+
+For any further questions regarding his job search or if there’s more detailed weather data needed for other cities, please let me know!
+2026-07-22 19:49:58  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='prompts/get', params={'name': 'summarize', 'arguments': {'filename': 'notes.txt'}}, jsonrpc='2.0', id=8)
+2026-07-22 19:49:58  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:49:58  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112b4e5d0>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:49:57 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:49:58  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:58  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:49:58 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:49:58  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=8, result={'description': 'Prompt template: instructs the LLM to read a file and summarize it.', 'messages': [{'role': 'user', 'content': {'type': 'text', 'text': "Please read the file 'notes.txt' using the read_file tool, then write a brief, clear summary of its contents."}}]})
+2026-07-22 19:49:58  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:49:58  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:49:58  INFO     __main__  ======================================================================
+2026-07-22 19:49:58  INFO     __main__  SCENARIO 5 — prompt template ('summarize') -> tool (read_file)
+2026-07-22 19:49:58  INFO     __main__  ======================================================================
+2026-07-22 19:49:58  DEBUG    __main__    [system] You are a helpful assistant. Call a tool whenever it can answer the question.
+2026-07-22 19:49:58  DEBUG    __main__    [user] Please read the file 'notes.txt' using the read_file tool, then write a brief, clear summary of its contents.
+2026-07-22 19:49:58  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-1951d7d6-5917-416d-a4b4-5839f3e6bd41', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant. Call a tool whenever it can answer the question.'}, {'role': 'user', 'content': "Please read the file 'notes.txt' using the read_file tool, then write a brief, clear summary of its contents."}], 'model': 'qwen2.5:3b', 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'read_file', 'description': 'Read any text file from the current directory and return its full contents.', 'parameters': {'properties': {'filename': {'title': 'Filename', 'type': 'string'}}, 'required': ['filename'], 'title': 'read_fileArguments', 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_weather', 'description': 'Get the current weather conditions and temperature for any city in the world.', 'parameters': {'properties': {'city': {'title': 'City', 'type': 'string'}}, 'required': ['city'], 'title': 'get_weatherArguments', 'type': 'object'}}}]}}
+2026-07-22 19:49:58  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:49:58  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:49:58  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:50:06 GMT'), (b'Content-Length', b'434')])
+2026-07-22 19:50:06  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:50:06  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:50:06  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:50:06 GMT', 'content-length': '434'})
+2026-07-22 19:50:06  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:50:06  INFO     __main__  Model wants 1 tool call(s):
+2026-07-22 19:50:06  INFO     __main__    read_file({"filename":"notes.txt"})
+2026-07-22 19:50:06  DEBUG    mcp.client.streamable_http  Sending client message: root=JSONRPCRequest(method='tools/call', params={'name': 'read_file', 'arguments': {'filename': 'notes.txt'}}, jsonrpc='2.0', id=9)
+2026-07-22 19:50:06  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:50:06  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112b6b050>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:50:06 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:50:06  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:50:06  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:50:06 GMT'), (b'server', b'uvicorn'), (b'cache-control', b'no-cache, no-transform'), (b'connection', b'keep-alive'), (b'content-type', b'text/event-stream'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'x-accel-buffering', b'no'), (b'Transfer-Encoding', b'chunked')])
+2026-07-22 19:50:06  INFO     httpx  HTTP Request: POST http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    mcp.client.streamable_http  SSE message: root=JSONRPCResponse(jsonrpc='2.0', id=9, result={'content': [{'type': 'text', 'text': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}], 'structuredContent': {'result': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}, 'isError': False})
+2026-07-22 19:50:06  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:50:06  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:50:06  DEBUG    __main__    read_file -> Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.
+2026-07-22 19:50:06  DEBUG    openai._base_client  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-5693599e-1da1-486a-a9aa-edbcd7d47ac4', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant. Call a tool whenever it can answer the question.'}, {'role': 'user', 'content': "Please read the file 'notes.txt' using the read_file tool, then write a brief, clear summary of its contents."}, {'content': '', 'role': 'assistant', 'tool_calls': [{'id': 'call_1o9rcfk7', 'function': {'arguments': '{"filename":"notes.txt"}', 'name': 'read_file'}, 'type': 'function', 'index': 0}]}, {'role': 'tool', 'tool_call_id': 'call_1o9rcfk7', 'content': 'Mr Zhao is a 30 year old man, he has been working in a high tech company for many years, so he has lots of experiences, now he is looking for a new job in the field.'}], 'model': 'qwen2.5:3b'}}
+2026-07-22 19:50:06  DEBUG    openai._base_client  Sending HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+2026-07-22 19:50:06  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:50:06  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Date', b'Wed, 22 Jul 2026 16:50:18 GMT'), (b'Content-Length', b'609')])
+2026-07-22 19:50:18  INFO     httpx  HTTP Request: POST http://127.0.0.1:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:50:18  DEBUG    openai._base_client  HTTP Response: POST http://127.0.0.1:11434/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'date': 'Wed, 22 Jul 2026 16:50:18 GMT', 'content-length': '609'})
+2026-07-22 19:50:18  DEBUG    openai._base_client  request_id: None
+2026-07-22 19:50:18  INFO     __main__  Final answer: Based on the contents of the 'notes.txt' file, Mr. Zhao is aged 30 and currently works at a high-tech company where he gathers significant work experience. He's seeking employment opportunities within the same industry but has not provided any further specifics about his current role or desired job type in this document.
+2026-07-22 19:50:18  DEBUG    httpcore.connection  connect_tcp.started host='127.0.0.1' port=8000 local_address=None timeout=30.0 socket_options=None
+2026-07-22 19:50:18  DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x112b699d0>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.failed exception=GeneratorExit()
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'date', b'Wed, 22 Jul 2026 16:50:18 GMT'), (b'server', b'uvicorn'), (b'content-length', b'0'), (b'location', b'http://127.0.0.1:8000/mcp')])
+2026-07-22 19:50:18  INFO     httpx  HTTP Request: DELETE http://127.0.0.1:8000/mcp/ "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_headers.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_body.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  send_request_body.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Wed, 22 Jul 2026 16:50:18 GMT'), (b'server', b'uvicorn'), (b'content-type', b'application/json'), (b'mcp-session-id', b'3d2bc7462b2b4d04a822e7db31e1cfef'), (b'content-length', b'0')])
+2026-07-22 19:50:18  INFO     httpx  HTTP Request: DELETE http://127.0.0.1:8000/mcp "HTTP/1.1 200 OK"
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'DELETE']>
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.complete
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:50:18  DEBUG    httpcore.connection  close.started
+2026-07-22 19:50:18  DEBUG    httpcore.http11  receive_response_body.failed exception=CancelledError("Cancelled via cancel scope 10dcbb9a0 by <Task pending name='Task-1' coro=<main() running at /Users/jingjingzhao/Projects/DI-Bootcacmp/Week10/Day2/classnote/mcp_client_scenarios.py:175> cb=[_run_until_complete_cb() at /usr/local/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py:181]>")
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.started
+2026-07-22 19:50:18  DEBUG    httpcore.connection  close.complete
+2026-07-22 19:50:18  DEBUG    httpcore.connection  close.started
+2026-07-22 19:50:18  DEBUG    httpcore.http11  response_closed.complete
+2026-07-22 19:50:18  DEBUG    httpcore.connection  close.complete
+2026-07-22 19:50:18  DEBUG    httpcore.connection  close.started
+2026-07-22 19:50:18  DEBUG    httpcore.connection  close.complete
